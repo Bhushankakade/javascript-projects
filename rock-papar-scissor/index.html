@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock paper scissor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="computer">
+            <h2>Computer choice</h2>
+            <span id="computer-choice"></span>
+        </div>
+
+        <div class="user">
+            <h2>Your choice</h2>
+            <span id="user-choice"></span>
+        </div>
+
+        <div class="result-section">
+            <h2>Result</h2>
+            <span id="result"></span>
+        </div>
+
+        <div class="img-section">
+            <img src="image/rock.png" alt="rock" class="rock">
+            <img src="image/paper.png" alt="paper">
+            <img src="image/scissors.png" alt="scissors">
+        </div>
+
+
+    </div>
+    <div class="scoreboard">
+        <div class="user-score">Your Score: <span class="user-score-value score ">0</span></div>
+        <div class="computer-score">Computer's Score: <span class="computer-score-value">0</span></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

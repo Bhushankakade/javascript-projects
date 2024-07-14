@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #c5c5c5;
+  font-family: "poppins";
+}
+.section-center {
+  width: 90vh;
+  margin: 0 auto;
+  max-width: 35rem;
+  margin-top: 8rem;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.grocery-form {
+  padding: 2rem;
+}
+.grocery-form h3 {
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+.form-control {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 5px;
+  align-items: center;
+}
+
+#grocery {
+  width: 250px;
+  height: 35px;
+  border-radius: 9px;
+  outline: none;
+  border: none;
+  padding: 5px;
+  font-size: 17px;
+  background-color: #e0ffd5;
+}
+
+.submit-btn {
+  font-size: 17px;
+  padding: 7px 8px;
+  border-radius: 9px;
+  border: none;
+  background-color: #54fb86;
+  transition: 300ms;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #42ca6b;
+  color: #fff;
+}
+
+.clear-btn {
+  display: block;
+  margin: 0 auto;
+  font-size: 17px;
+  outline: none;
+  color: #f13838;
+  border: none;
+  background-color: #fff;
+  padding: 6px 10px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.clear-btn:hover {
+  background-color: #ff6363;
+  color: #fff;
+}
+
+.grocery-container {
+  visibility: hidden;
+}
+
+.grocery-list article {
+  margin: 1rem auto;
+  width: 440px;
+  font-size: 20px;
+  /* background-color: #f2f7f3; */
+  border-radius: 10px;
+  padding: 4px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.show-container {
+  visibility: visible;
+}
+.btn-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.edit-btn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  color: #42ca6b;
+  cursor: pointer;
+}
+
+.delete-btn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  color: #f13838;
+  cursor: pointer;
+}
+
+.alert {
+  margin-bottom: 1rem;
+  height: 1.25rem;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  font-size: 0.7rem;
+  border-radius: 0.25rem;
+  letter-spacing: 0.25rem;
+  text-transform: capitalize;
+}
+
+.alert-danger {
+  color: #ce2132;
+  background-color: #eca8ae;
+}
+
+.alert-success {
+  color: #155724;
+  background-color: #d4edda;
+}

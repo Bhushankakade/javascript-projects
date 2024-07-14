@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(145deg, #93c4d7, #5a76b7, #4f3ebc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qr-code-app {
+  width: 400px;
+  background-color: #fff;
+  min-height: 100px;
+  padding: 20px 30px;
+  border-radius: 8px;
+}
+
+.qr-code-app h1 {
+  text-align: center;
+}
+
+.qr-code-app h2 {
+  text-align: center;
+  font-weight: 400;
+  color: #6b6b6b;
+  font-size: 15px;
+  margin: 20px 0px 10px;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  display: block;
+  margin: 0 auto 2rem;
+  border-radius: 7px;
+  background-color: #fff6f6;
+  border: 0;
+  outline: 0;
+  padding: 18px;
+  border: 1px solid #333;
+  font-size: 18px;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.btn {
+  font-size: 20px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: 0;
+  outline: 0;
+  background-color: #16f455;
+  color: #333;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0fda49;
+  color: #fff;
+}
+
+.download-btn {
+  font-size: 20px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: 0;
+  outline: 0;
+  background-color: #16f455;
+  color: #333;
+  cursor: pointer;
+}
+
+.download-btn:hover {
+  background-color: #0fda49;
+  color: #fff;
+}
+
+.imgBox {
+  height: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: height 1s;
+}
+
+.imgBox.show-img {
+  width: 300px;
+  margin: 0 auto;
+  height: 220px;
+  border: 1px solid #333;
+  padding: 10px 0;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
