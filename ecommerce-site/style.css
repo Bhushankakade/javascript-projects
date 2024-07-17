@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.2rem 5rem;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.navlinks {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 2.5rem;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.navMenu {
+  color: #333;
+  text-decoration: none;
+}
+
+.shoping-cart {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 10px;
+  background-color: #333;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.shoping-cart i,
+p {
+  font-size: 1.5rem;
+}
+
+.sectionInfo {
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(33deg, #284698, #2a4daf, #8c9bcf);
+  padding: 50px;
+}
+
+.content {
+  width: 50%;
+  margin: 0 1.5rem 0;
+}
+
+.content p {
+  color: #fff;
+}
+
+.content h1 {
+  color: #68bbdc;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1.8;
+}
+
+.content .desc {
+  font-size: 20px;
+  margin-top: 1rem;
+}
+
+.explore-btn {
+  background-color: #0c0a53;
+  color: #fff;
+  padding: 10px 20px;
+  border: 0;
+  margin-top: 2rem;
+  font-size: 20px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.explore-btn:hover {
+  background-color: #2e2c76;
+}
+
+.explore-btn:active {
+  background-color: #18164f;
+}
+.electronicGadgetImg img {
+  width: 40rem;
+}
