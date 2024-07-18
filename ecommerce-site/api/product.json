@@ -1,0 +1,56 @@
+[
+  {
+    " id": "1",
+    "name": "Laptop",
+    "star": "⭐⭐⭐⭐⭐",
+    "price": "999.9",
+    "stock": "50",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure similique sunt ullam molestias libero mollitia quod soluta ipsum asperiores enim!",
+    "image": "./public/image/firestick.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Laptop",
+    "star": "⭐⭐⭐⭐⭐",
+    "price": "999.9",
+    "stock": "50",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure similique sunt ullam molestias libero mollitia quod soluta ipsum asperiores enim!",
+    "image": "./public/image/firestick.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Laptop",
+    "star": "⭐⭐⭐⭐⭐",
+    "price": "999.9",
+    "stock": "50",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure similique sunt ullam molestias libero mollitia quod soluta ipsum asperiores enim!",
+    "image": "./public/image/firestick.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Laptop",
+    "star": "⭐⭐⭐⭐⭐",
+    "price": "999.9",
+    "stock": "50",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure similique sunt ullam molestias libero mollitia quod soluta ipsum asperiores enim!",
+    "image": "./public/image/firestick.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Laptop",
+    "star": "⭐⭐⭐⭐⭐",
+    "price": "999.9",
+    "stock": "50",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure similique sunt ullam molestias libero mollitia quod soluta ipsum asperiores enim!",
+    "image": "./public/image/firestick.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Laptop",
+    "star": "⭐⭐⭐⭐⭐",
+    "price": "999.9",
+    "stock": "50",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure similique sunt ullam molestias libero mollitia quod soluta ipsum asperiores enim!",
+    "image": "./public/image/firestick.jpg"
+  }
+]

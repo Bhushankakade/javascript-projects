@@ -107,15 +107,17 @@ p {
 .recommend-product {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 2rem 5rem;
   padding: 1.5rem 2rem;
   background-color: #e8e6e6;
 }
 
 .recommend-product__img {
-  width: 300px;
+  width: 200px;
   height: 200px;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .recommend-product__img img {
@@ -128,6 +130,7 @@ p {
 
 .recommend-product-info h3 {
   margin: 0 0 1.5rem;
+  color: #6f6e6e;
 }
 
 .shopnow {
@@ -148,4 +151,82 @@ p {
 
 .shopnow:active {
   background-color: #b10f2f;
+}
+
+.products {
+  margin: 10rem 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.container {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.5rem;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.container img {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  mix-blend-mode: multiply;
+}
+
+.container h1 {
+  font-size: 1.8rem;
+  margin-top: 20px;
+}
+
+.container .star {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.container .product-info {
+  font-size: 18px;
+  margin: 1rem 0;
+}
+
+.container .price-section {
+  display: flex;
+  font-weight: 500;
+  font-size: 18px;
+  gap: 30px;
+  margin-bottom: 1rem;
+}
+
+.container .price-section .actual-price {
+  text-decoration: line-through;
+}
+
+.container .quantity {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.container .quantity .title {
+  font-size: 20px;
+}
+
+.container .quntity-value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #f3eeee;
+  border-radius: 4px;
+}
+
+.container .btn {
+  border: 0;
+  background: transparent;
+  height: 30px;
+  padding: 0 20px;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 500;
+  border: 1px solid #f3eeee;
 }
