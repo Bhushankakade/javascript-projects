@@ -93,6 +93,11 @@ p {
   cursor: pointer;
 }
 
+.explore-btn span {
+  font-size: 1.5rem;
+  vertical-align: middle;
+}
+
 .explore-btn:hover {
   background-color: #2e2c76;
 }
@@ -108,7 +113,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 2rem 5rem;
+  margin: 9rem 5rem 5rem;
   padding: 1.5rem 2rem;
   background-color: #e8e6e6;
 }
@@ -165,6 +170,7 @@ p {
   flex-direction: column;
   padding: 1rem 1.5rem;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  margin-top: 5rem;
 }
 
 .container img {
@@ -229,4 +235,10 @@ p {
   font-size: 22px;
   font-weight: 500;
   border: 1px solid #f3eeee;
+}
+
+.productContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
