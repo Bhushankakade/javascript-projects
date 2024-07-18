@@ -114,12 +114,14 @@
 
   <template class="products productsTemplate">
     <div class="container">
-      <img src="./public/image/firestick.jpg" alt="">
-      <h1>Laptop</h1>
+      <!-- category -->
+      <div class="category">
+        <h3 class="categories">Computers</h3>
+      </div>
+
+      <img src="./public/image/tv.jpg" class="image" alt="">
+      <h1 class="name">Laptop</h1>
       <p class="star">⭐⭐⭐⭐⭐</p>
-      <p class="product-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure similique sunt ullam
-        molestias libero mollitia
-        quod soluta ipsum asperiores enim!</p>
 
       <!-- price -->
       <div class="price-section">
@@ -127,7 +129,7 @@
         <div class="actual-price">Rs. 3999.96</div>
       </div>
 
-      <h3>Total Stocks Available: 50</h3>
+      <h3 class="stock">Total Stocks Available: 50</h3>
 
       <!-- quantity -->
       <div class="quantity">
@@ -138,6 +140,12 @@
           <button class="minus btn">-</button>
         </div>
       </div>
+
+      <!--Add to cart  -->
+      <button href="/" class="shoping-cart-item">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <p>Add to cart</p>
+      </button>
     </div>
   </template>
   <script type="module" src="/main.js"></script>

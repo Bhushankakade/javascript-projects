@@ -2,55 +2,55 @@
   {
     " id": "1",
     "name": "Laptop",
+    "category": "Computer",
     "star": "⭐⭐⭐⭐⭐",
-    "price": "999.9",
+    "price": 49000,
     "stock": "50",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure similique sunt ullam molestias libero mollitia quod soluta ipsum asperiores enim!",
-    "image": "./public/image/firestick.jpg"
+    "image": "./public/image/computer.webp"
   },
   {
     "id": "2",
-    "name": "Laptop",
+    "name": "Smartphone",
+    "category": "Mobiles",
     "star": "⭐⭐⭐⭐⭐",
-    "price": "999.9",
-    "stock": "50",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure similique sunt ullam molestias libero mollitia quod soluta ipsum asperiores enim!",
-    "image": "./public/image/firestick.jpg"
+    "price": 15000,
+    "stock": "100",
+    "image": "./public/image/phone.webp"
   },
   {
     "id": "3",
-    "name": "Laptop",
+    "name": "Wireless Headphones",
+    "category": "Audio",
     "star": "⭐⭐⭐⭐⭐",
-    "price": "999.9",
+    "price": 20000,
     "stock": "50",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure similique sunt ullam molestias libero mollitia quod soluta ipsum asperiores enim!",
-    "image": "./public/image/firestick.jpg"
+    "image": "./public/image/headphones.webp"
   },
   {
     "id": "4",
-    "name": "Laptop",
+    "name": "Watches",
+    "category": "Wearables",
     "star": "⭐⭐⭐⭐⭐",
-    "price": "999.9",
-    "stock": "50",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure similique sunt ullam molestias libero mollitia quod soluta ipsum asperiores enim!",
-    "image": "./public/image/firestick.jpg"
+    "price": 15000,
+    "stock": "70",
+    "image": "./public/image/wearable.webp"
   },
   {
     "id": "5",
-    "name": "Laptop",
+    "name": "Audio",
+    "category": "Computer",
     "star": "⭐⭐⭐⭐⭐",
-    "price": "999.9",
-    "stock": "50",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure similique sunt ullam molestias libero mollitia quod soluta ipsum asperiores enim!",
-    "image": "./public/image/firestick.jpg"
+    "price": 60000,
+    "stock": "200",
+    "image": "./public/image/speaker.webp"
   },
   {
     "id": "6",
-    "name": "Laptop",
+    "name": "videos",
+    "category": "Computer",
     "star": "⭐⭐⭐⭐⭐",
-    "price": "999.9",
-    "stock": "50",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure similique sunt ullam molestias libero mollitia quod soluta ipsum asperiores enim!",
-    "image": "./public/image/firestick.jpg"
+    "price": 90000,
+    "stock": "150",
+    "image": "./public/image/tv.jpg"
   }
 ]
