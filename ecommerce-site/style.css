@@ -103,3 +103,49 @@ p {
 .electronicGadgetImg img {
   width: 40rem;
 }
+
+.recommend-product {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 5rem;
+  padding: 1.5rem 2rem;
+  background-color: #e8e6e6;
+}
+
+.recommend-product__img {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.recommend-product__img img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  mix-blend-mode: multiply;
+}
+
+.recommend-product-info h3 {
+  margin: 0 0 1.5rem;
+}
+
+.shopnow {
+  background-color: #f91643;
+  font-size: 15px;
+  padding: 5px;
+  border: 0;
+  border-radius: 7px;
+  color: #fff;
+  margin-top: 1.5rem;
+  cursor: pointer;
+  margin-left: 5rem;
+}
+
+.shopnow:hover {
+  background-color: #e6375a;
+}
+
+.shopnow:active {
+  background-color: #b10f2f;
+}
